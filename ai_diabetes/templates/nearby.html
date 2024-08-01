@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>
+        | Home
+    </title>
+
+</head>
+
+<body style = "background-color: deepskyblue;  margin: 0 0 0; text-align: center">
+
+    <p id = "head_bar" style = "background-color: dodgerblue; margin : 0 0 0; opacity: 0.8; color: deepblue; font: bold 22.5px Times New Roman, serif; text-align: center; border: solid 7.5px lightblue; border-radius: 10px">
+
+        <a href = "{{url_for('home')}}">
+            <img src = "{{url_for('static', filename = '/images/Diabetes_AI_Icon.png')}}" width = "125"; height = "125">
+        </a>
+
+    </p>
+
+    <p style = "text-align: center">
+        <label class="form-label" style = "color: darkblue; font: bold 40px Times New Roman, serif;" >Recommended Doctors</label>
+    </p>
+
+    <br>
+
+    <table style="background-color: lightskyblue; border: solid 7.5px lightblue; text-align: center; border-radius: 10px; border-spacing: 20px; width: 50%; " align="center">
+        <thead style="font-size: 20px; padding: 10px">
+
+            <th> ID </th>
+            <th> Full Name </th>
+            <th> Center </th>
+            <th> City</th>
+            <th> Suburb </th>
+            <th> Phone </th>
+            <th> Rating </th>
+
+        </thead>
+
+        {% for doctor in data %}
+        <tbody style="font-size: 20px; padding: 10px">
+
+            <td>{{doctor.ID}}</td>
+            <td>{{doctor.Full_Name}}</td>
+            <td>{{doctor.Center}}</td>
+            <td>{{doctor.City}}</td>
+            <td>{{doctor.Suburb}}</td>
+            <td>{{doctor.Phone}}</td>
+            <td>{{doctor.Rating}}</td>
+
+        </tbody>
+        {% endfor %}
+
+    </table>
+
+</body>
+
+</html>

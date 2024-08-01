@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+        | Diabetes Diagnosis
+    </title>
+
+</head>
+
+<body style="background-color: deepskyblue;  margin: 0 0 0; text-align: center">
+
+    <p id="head_bar"
+        style="background-color: dodgerblue; margin : 0 0 0; opacity: 0.8; color: deepblue; font: bold 22.5px Times New Roman, serif; text-align: center; border: solid 7.5px lightblue; border-radius: 10px">
+
+        <a href="{{url_for('home')}}">
+            <img src="{{url_for('static', filename = '/images/Diabetes_AI_Icon.png')}}" width="125" ; height="125">
+        </a>
+
+    </p>
+
+    <br><br>
+
+    <form action="/step3" method="post"
+        style="text-align: center; font: bold 20px Tahoma, sans-serif; background-color: dodgerblue; margin : auto; opacity: 0.9; width: 90%; border: solid 10px darkblue; border-radius: 20px; background-image: url('/static/images/Diabetes_Background.jpg'); background-position: center">
+
+        <br>
+
+        <label class="form-label">Enter the following details:</label>
+
+        <br><br>
+
+        <div>
+            <label for="FirstName" class="form-label">1. First Name</label>
+
+            <br>
+
+            <p style="font: 20px Tahoma, sans-serif;">
+                <input class="form-control" name="FirstName" style="text-align: center">
+            </p>
+
+        </div>
+
+        <div>
+            <label for="MiddleName" class="form-label">2. Middle Name</label>
+
+            <br>
+
+            <p style="font: 20px Tahoma, sans-serif;">
+                <input class="form-control" name="MiddleName" style="text-align: center">
+            </p>
+
+        </div>
+
+        <div>
+            <label for="LastName" class="form-label">3. Last Name</label>
+
+            <br>
+
+            <p style="font: 20px Tahoma, sans-serif;">
+                <input class="form-control" name="LastName" style="text-align: center">
+            </p>
+
+        </div>
+
+        <div>
+
+            <label for="Gender" class="form-label">4. Gender</label>
+
+            <br>
+
+            <p style="font: 20px Tahoma, sans-serif;">
+                <label for="Gender_Male" class="form-label">Male</label>
+                <input class="form-control" type="radio" name="Gender" value="Male">
+
+                <label for="Gender_Female" class="form-label">Female</label>
+                <input class="form-control" type="radio" name="Gender" value="Female">
+            </p>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="City" class="form-label">5. City</label>
+
+            <br>
+
+            <p style="font: 20px Tahoma, sans-serif;">
+                <input class="form-control" name="City" style="text-align: center">
+            </p>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="Suburb" class="form-label">6. Suburb</label>
+
+            <br>
+
+            <p style="font: 20px Tahoma, sans-serif;">
+                <input class="form-control" name="Suburb" style="text-align: center">
+            </p>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary" style = "font-size: 15px">Submit</button>
+
+        <br><br>
+
+    </form>
+
+</body>
+
+</html>
