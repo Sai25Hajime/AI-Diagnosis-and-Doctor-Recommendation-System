@@ -1,5 +1,5 @@
 # 🏥 AI-Diagnosis-and-Doctor-Recommendation-System
- An AI-powered system for diagnosing diabetes and recommending doctors based on the diagnosis.
+ An ML system for predicting and diagnosing diabetes and recommending doctors based on the diagnosis.
 
 # 📌 Overview
 This project aims to provide an AI-based health diagnosis system for diabetes detection and doctor recommendations. Using machine learning models, it predicts the likelihood of a patient having diabetes and suggests specialized doctors for further consultation.
