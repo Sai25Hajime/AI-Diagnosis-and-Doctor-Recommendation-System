@@ -40,8 +40,8 @@ The PIMA Indians Diabetes Dataset from Kaggle was used for training the diabetes
    python app.py
 
 4. Access the web app at
-
-http://localhost:5000
+   ```bash
+   http://localhost:5000
 
 # 🖼️ Screenshots
 
