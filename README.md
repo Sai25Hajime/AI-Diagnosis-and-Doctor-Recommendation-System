@@ -32,7 +32,7 @@ git clone https://github.com/your-username/AI-Diagnosis-and-Doctor-Recommendatio
 cd AI-Diagnosis-and-Doctor-Recommendation-System
 
 2. Install dependencies
-```bash
+
 pip install -r requirements.txt
 
 3. Run the Flask app
