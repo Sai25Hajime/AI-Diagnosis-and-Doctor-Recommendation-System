@@ -62,5 +62,3 @@ Integrate real-time doctor availability.
 - [Yohan Mavely (@BlueLightningWizard)](https://github.com/BlueLightningWizard) 
 - [Nadeem Mithawala (@Nadeem-Mithawala)](https://github.com/Nadeem-Mithawala).
 
-# 📜 License
-This project is licensed under the MIT License.
