@@ -36,11 +36,11 @@ cd AI-Diagnosis-and-Doctor-Recommendation-System
 pip install -r requirements.txt
 
 3. Run the Flask app
-```bash
+
 python app.py
 
 4. Access the web app at
-```bash
+
 http://localhost:5000
 
 # 🖼️ Screenshots
