@@ -27,17 +27,21 @@ The PIMA Indians Diabetes Dataset from Kaggle was used for training the diabetes
 
 # 📜 Installation
 1. Clone the repository
-
+```bash
 git clone https://github.com/your-username/AI-Diagnosis-and-Doctor-Recommendation-System.git
 cd AI-Diagnosis-and-Doctor-Recommendation-System
 
 2. Install dependencies
+```bash
 pip install -r requirements.txt
 
 3. Run the Flask app
+```bash
 python app.py
 
-5. Access the web app at http://localhost:5000
+4. Access the web app at
+```bash
+http://localhost:5000
 
 # 🖼️ Screenshots
 
