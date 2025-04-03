@@ -48,6 +48,10 @@ a. Home Page
 
 ![HomePage_ss1](images/HomePage_ss1.png)
 
+b. Prediction Page (Step 1)
+
+![Pred_step1_ss2](images/Pred_step1_ss2.png)
+
 # 📌 Future Scope
 Extend diagnosis to heart disease prediction (which is done in the final year project).
 
