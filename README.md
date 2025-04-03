@@ -14,13 +14,13 @@ This project aims to provide an AI-based health diagnosis system for diabetes de
 ✅ Data-Driven Insights: Predicts based on medical parameters like glucose levels, BMI, age, etc.
 
 # 🛠️ Tech Stack
-Machine Learning: Scikit-learn (Logistic Regression, Decision Trees, etc.)
+✅ Machine Learning: Scikit-learn (Logistic Regression, Decision Trees, etc.)
 
-Backend: Flask (Python)
+✅ Backend: Flask (Python)
 
-Frontend: HTML, CSS, JavaScript
+✅ Frontend: HTML, CSS, JavaScript
 
-Database: SQLite (for storing doctor recommendations)
+✅ Database: SQLite (for storing doctor recommendations)
 
 # 📊 Dataset Used
 The PIMA Indians Diabetes Dataset from Kaggle was used for training the diabetes prediction model.
@@ -69,11 +69,11 @@ f. Recommended Doctors
 ![Recdoctors](images/Recdoctors.png)
 
 # 📌 Future Scope
-Extend diagnosis to heart disease prediction (which is done in the final year project).
+✅ Extend diagnosis to heart disease prediction (which is done in the final year project).
 
-Enhance the ML model with deep learning approaches.
+✅ Enhance the ML model with deep learning approaches.
 
-Integrate real-time doctor availability.
+✅ Integrate real-time doctor availability.
 
 
 
