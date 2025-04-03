@@ -45,7 +45,7 @@ The PIMA Indians Diabetes Dataset from Kaggle was used for training the diabetes
 
 # 🖼️ Screenshots
 a. Home Page
-![HomePage_ss1](https://github.com/user-attachments/assets/96aabc64-cce4-441a-8ad9-d81e140dff63)
+![HomePage_ss1](images/HomePage_ss1.png)
 
 # 📌 Future Scope
 Extend diagnosis to heart disease prediction (which is done in the final year project).
