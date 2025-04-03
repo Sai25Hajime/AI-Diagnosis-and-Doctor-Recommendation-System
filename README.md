@@ -52,6 +52,22 @@ b. Prediction Page (Step 1)
 
 ![Pred_step1_ss2](images/Pred_step1_ss2.png)
 
+c. Prediction Page (Step 2)
+
+![Pred_step2_ss3](images/Pred_step2_ss3.png)
+
+d. Prediction Page (Step 3)
+
+![Pred_step3_ss4](images/Pred_step3_ss4.png)
+
+e. Prediction Page (Final Report)
+
+![Pred_finalreport_ss5](images/Pred_finalreport_ss5.png)
+
+f. Recommended Doctors
+
+![Recdoctors](images/Recdoctors.png)
+
 # 📌 Future Scope
 Extend diagnosis to heart disease prediction (which is done in the final year project).
 
