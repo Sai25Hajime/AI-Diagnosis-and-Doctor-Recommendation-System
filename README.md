@@ -1,8 +1,12 @@
 # 🏥 AI-Diagnosis-and-Doctor-Recommendation-System
  An ML system for predicting and diagnosing diabetes and recommending doctors based on the diagnosis.
 
+---
+
 # 📌 Overview
 This project aims to provide an AI-based health diagnosis system for diabetes detection and doctor recommendations. Using machine learning models, it predicts the likelihood of a patient having diabetes and suggests specialized doctors for further consultation.
+
+---
 
 # 🚀 Features
 ✅ Diabetes Prediction: Uses a trained machine learning model to predict diabetes risk.
@@ -13,6 +17,8 @@ This project aims to provide an AI-based health diagnosis system for diabetes de
 
 ✅ Data-Driven Insights: Predicts based on medical parameters like glucose levels, BMI, age, etc.
 
+---
+
 # 🛠️ Tech Stack
 ✅ Machine Learning: Scikit-learn (Logistic Regression, Decision Trees, etc.)
 
@@ -21,6 +27,8 @@ This project aims to provide an AI-based health diagnosis system for diabetes de
 ✅ Frontend: HTML, CSS, JavaScript
 
 ✅ Database: SQLite (for storing doctor recommendations)
+
+---
 
 # 📊 Dataset Used
 The PIMA Indians Diabetes Dataset from Kaggle was used for training the diabetes prediction model.
@@ -42,6 +50,8 @@ The PIMA Indians Diabetes Dataset from Kaggle was used for training the diabetes
 4. Access the web app at
    ```bash
    http://localhost:5000
+
+---
 
 # 🖼️ Screenshots
 a. Home Page
@@ -68,6 +78,8 @@ f. Recommended Doctors
 
 ![Recdoctors](images/Recdoctors.png)
 
+---
+
 # 📌 Future Scope
 ✅ Extend diagnosis to heart disease prediction (which is done in the final year project).
 
@@ -75,8 +87,7 @@ f. Recommended Doctors
 
 ✅ Integrate real-time doctor availability.
 
-
-
+---
 
 ## 👩‍💻 Contributors/Collaborators  
 - [Saileen Fernandes (@Sai25Hajime)](https://github.com/Sai25Hajime)
