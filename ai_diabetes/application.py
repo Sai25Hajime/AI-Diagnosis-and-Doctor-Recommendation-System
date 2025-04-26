@@ -40,6 +40,9 @@ with application.app_context():
 def home():
     return render_template('home.html')
 
+def index():
+    return render_template('index.html')
+
 def predict_step1():
     return render_template('step1.html')
 
