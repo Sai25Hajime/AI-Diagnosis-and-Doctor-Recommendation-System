@@ -155,4 +155,4 @@ application.add_url_rule('/nearby', 'nearby', find_doctor, methods=['POST'])
 
 
 if __name__ == '__main__':
-    application.run()
+    application.run(debug=True, host = '0.0.0.0', port = 10000)
