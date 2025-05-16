@@ -36,7 +36,7 @@ The PIMA Indians Diabetes Dataset from Kaggle was used for training the diabetes
 # 📜 Installation
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/AI-Diagnosis-and-Doctor-Recommendation-System.git
+   git clone https://github.com/Sai25Hajime/AI-Diagnosis-and-Doctor-Recommendation-System.git
    cd AI-Diagnosis-and-Doctor-Recommendation-System
 
 2. Install dependencies
